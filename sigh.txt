@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sigh! - Inspired Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Sigh!</h1>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-text">
+            <h1>Expressing Life Through Creative Vision</h1>
+            <p>Photography | Art | Creativity</p>
+            <a href="#portfolio" class="hero-btn">Explore Portfolio</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Sigh!</h2>
+        <p>
+            Sigh! is an artistic brand focused on visual storytelling through photography and creative projects. This platform showcases the vision and aesthetic of life captured through the lens.
+        </p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="image1.jpg" alt="Portfolio Image 1">
+                <h3>Photography</h3>
+            </div>
+            <div class="portfolio-item">
+                <img src="image2.jpg" alt="Portfolio Image 2">
+                <h3>Art</h3>
+            </div>
+            <div class="portfolio-item">
+                <img src="image3.jpg" alt="Portfolio Image 3">
+                <h3>Creative Vision</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Reach out for collaborations, creative projects, and inquiries.</p>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sigh! Inspired Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
